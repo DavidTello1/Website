@@ -12,16 +12,12 @@
           <h3 class="text-center">{{site.description}}</h3>
           {% endif %}
 
-         
+         <br><br>
           <div class="col-xs-12 col-md-6 pull-left">
             <img class="img-responsive img-circle my-profile-pic" src="{{ site.url }}/Website/img/Picture.png">
           </div>
-         
-     
-          <div class="col-xs-12 col-md-6 pull-right">
-            {% include about.html %}
-          </div>
-
+          
+          
           <div class="hero-buttons">
 
             {% if site.linkedin_url != '' %}
@@ -39,6 +35,10 @@
           <h4 class="text-center">{{site.email}}</h4>
           {% endif %}
 
+          <div class="col-xs-12 col-md-6 pull-right">
+            {% include about.html %}
+          </div>
+          
         </div>
       </div>
     </div>
