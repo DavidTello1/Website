@@ -1,23 +1,4 @@
 ---
 intro: I started playing video games when I was a kid, so they have been a huge part of my past. As I grew older I joined the video games industry, aiming to create experiences that would touch the future of other people like me. I have a lot of fun doing what I do because every day is a new challenge and I am constantly pushing my creativity!
 outro: I mainly program in C/C++ and I am also familiar with C# and Python. I use Unity sometimes, but I code most of my personal projects without a game engine. I am especially interested in the gameplay and game AI fields since they allow me to be a bit of a designer too.
-featured_image: '/img/Sandra.JPG'
-
-university_intro: I am a final year student of the
-university_degree: Bachelor's degree in Video Game Design and Development
-university_name: Universitat Politècnica de Catalunya (UPC)
-university_url: https://www.citm.upc.edu/
-
-king_scholarship_intro: In 2019 I won the
-king_intro: and during the summer I worked as a
-king: King
-king_role: Developer Intern
-king_scholarship: King Women in Games Scholarship
-king_url: https://king.com/
-king_scholarship_url: https://king.com/es/jobs/students/scholarships/gdc-2019/winners
-
-ubisoft_intro: Now I am working as a
-ubisoft: Ubisoft
-ubisoft_role: Junior Development Tester
-ubisoft_url: https://www.ubisoft.com/
----
+featured_image: ''
