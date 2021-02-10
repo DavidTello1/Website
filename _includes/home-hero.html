@@ -12,7 +12,13 @@
           <h3 class="text-center">{{site.description}}</h3>
           {% endif %}
 
-          {% include about.html %}
+          <div class="col-xs-12 col-md-6 pull-left">
+            <img class="img-responsive img-circle my-profile-pic" src="{{ site.data.about.featured_image }}">
+          </div>
+          
+          <div class="col-xs-12 col-md-6 pull-right">
+            {% include about.html %}
+          </div>
 
           <div class="hero-buttons">
 
