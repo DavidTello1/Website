@@ -13,18 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 'Sandra Alvarez'
+title: 'David Tello'
 description: 'Hi! I am a Game Programmer.'
-email: 'sandruskiag@gmail.com'
+email: 'davidtellop@gmail.com'
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://sandruski.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-github_url: 'https://github.com/Sandruski'
-linkedin_url: 'https://www.linkedin.com/in/sandra-alvarez-45453215b/'
+url: 'https://davidtello1.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+github_url: 'https://github.com/DavidTello1'
+linkedin_url: 'https://www.linkedin.com/in/david-tello-65b076155/'
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-paginate
 
 ### Phantom settings
 paginate: 1000
@@ -32,8 +30,8 @@ footer_intro: 'This theme is a modification of '
 footer_outro: 'by Jami Gibbs.'
 phantom_theme: 'Phantom'
 phantom_theme_url: 'https://github.com/jamigibbs/phantom'
-admin_name: 'Sandra Alvarez'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+admin_name: 'David Tello'
+google_analytics: "" # Update with your own tracking ID
 enable_contact: false
 
 #### Phantom Navigation menu
