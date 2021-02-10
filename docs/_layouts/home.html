@@ -1,5 +1,7 @@
 {% include header.html %}
 
+    {% include home-hero.html %}
+
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
   
 <main id="portfolio">
@@ -7,18 +9,18 @@
     <div class="row">
       <div class="col-md-12">
 
-        <div id="professional-projects">
-          {% if site.data.professional-projects.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.professional-projects.section_title }}</h2>
+        <div id="programming-languages">
+          {% if site.programming-languages.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.programming-languages.section_title }}</h2>
           {% endif %}
-          {% if site.data.professional-projects.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.professional-projects.section_subtitle }}</p>
+          {% if site.data.programming-languages.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.programming-languages.section_subtitle }}</p>
           {% endif %}
       
           <div class="break"></div>
       
           {% for post in paginator.posts %}
-          {% if post.type == "professional-project" %}
+          {% if post.type == "programming-language" %}
             <div class="wow fadeIn">
             {% if post.position == "left" %}
             {% include content-left.html %}
@@ -31,25 +33,21 @@
           {% endif %}
           {% endfor %}
         </div>
-      
-        <a class="section-jump text-center" href="#personal-projects">
-          <i class="fa fa-angle-down fa-3x"></i>
-        </a>
-      
+
         <div class="break"></div>
 
-        <div id="personal-projects">
-        {% if site.data.personal-projects.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.personal-projects.section_title }}</h2>
+        <div id="libraries">
+        {% if site.data.libraries.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.libraries.section_title }}</h2>
         {% endif %}
-        {% if site.data.personal-projects.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.personal-projects.section_subtitle }}</p>
+        {% if site.data.libraries.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.libraries.section_subtitle }}</p>
         {% endif %}
 
         <div class="break"></div>
 
         {% for post in paginator.posts %}
-        {% if post.type == "personal-project" %}
+        {% if post.type == "library" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
           {% include content-left.html %}
@@ -63,24 +61,20 @@
         {% endfor %}
         </div>
 
-        <a class="section-jump text-center" href="#gamejams">
-          <i class="fa fa-angle-down fa-3x"></i>
-        </a>
-
         <div class="break"></div>
 
-        <div id="gamejams">
-        {% if site.data.gamejams.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.gamejams.section_title }}</h2>
+        <div id="software">
+        {% if site.data.software.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.software.section_title }}</h2>
         {% endif %}
-        {% if site.data.gamejams.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.gamejams.section_subtitle }}</p>
+        {% if site.data.software.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.software.section_subtitle }}</p>
         {% endif %}
 
         <div class="break"></div>
 
         {% for post in paginator.posts %}
-        {% if post.type == "gamejam" %}
+        {% if post.type == "software_type" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
           {% include content-left.html %}
@@ -94,8 +88,33 @@
         {% endfor %}
         </div>
 
-        {% include pagination.html %}
+        <div class="break"></div>
 
+        <div id="libraries">
+        {% if site.data.libraries.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.libraries.section_title }}</h2>
+        {% endif %}
+        {% if site.data.libraries.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.libraries.section_subtitle }}</p>
+        {% endif %}
+
+        <div class="break"></div>
+
+        {% for post in paginator.posts %}
+        {% if post.type == "library" %}
+          <div class="wow fadeIn">
+          {% if post.position == "left" %}
+          {% include content-left.html %}
+          {% endif %}
+
+          {% if post.position == "right" %}
+          {% include content-right.html %}
+          {% endif %}
+          </div>
+        {% endif %}
+        {% endfor %}
+        </div>
+        
       </div>
     </div>
   </div>
