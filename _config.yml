@@ -16,7 +16,7 @@
 title: 'David Tello'
 description: 'Hi! I am a Game Programmer.'
 email: 'davidtellop@gmail.com'
-baseurl: '' # the subpath of your site, e.g. /blog
+baseurl: '/Website' # the subpath of your site, e.g. /blog
 url: 'https://davidtello1.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 github_url: 'https://github.com/DavidTello1'
 linkedin_url: 'https://www.linkedin.com/in/david-tello-65b076155/'
