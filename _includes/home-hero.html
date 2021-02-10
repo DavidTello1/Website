@@ -12,19 +12,7 @@
           <h3 class="text-center">{{site.description}}</h3>
           {% endif %}
 
-         {% include content-left.html %}
-         <img class="img-responsive img-circle my-profile-pic" src="{{ site.data.about.featured_image }}">
-
-        {% include content-right.html %}
-        <element class="highlight">
-        <element class="go">
-        {{ site.data.about.intro }}
-        </element>
-        </element>
-
-        <br><br>
-
-        {{ site.data.about.outro }}
+          {% include about.html %}
 
           <div class="hero-buttons">
 
