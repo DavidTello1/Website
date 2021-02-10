@@ -39,5 +39,3 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'HOME' }
   - { url: '/about', text: 'ABOUT' }
-
-theme: jekyll-theme-cayman
