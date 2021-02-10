@@ -39,5 +39,5 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'HOME' }
-  - { url: '/about', text: 'ABOUT' }
+  - { url: '/Website/#top', text: 'ABOUT' }
+  - { url: '/Website/#programming-languages', text: 'PROGRAMMING LANGUAGES' }
