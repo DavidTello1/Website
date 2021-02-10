@@ -15,25 +15,22 @@
          <br><br>
           <div class="col-xs-12 col-md-6 pull-left">
             <img class="img-responsive img-circle my-profile-pic" src="{{ site.url }}/Website/img/Picture.png">
-          </div>
           
-          
-          <div class="hero-buttons">
+            <div class="hero-buttons">
+              {% if site.linkedin_url != '' %}
+                <a href="{{ site.linkedin_url }}"><i class="fa fa-linkedin fa-lg"></i></a>
+              {% endif %}
+              {% if site.github_url != '' %}
+                <a href="{{ site.github_url }}"><i class="fa fa-github fa-lg"></i></a>
+              {% endif %}
+            </div>
 
-            {% if site.linkedin_url != '' %}
-              <a href="{{ site.linkedin_url }}"><i class="fa fa-linkedin fa-lg"></i></a>
+            {% if site.email != '' %}
+            <br><br>
+            
+            <h4 class="text-center">{{site.email}}</h4>
             {% endif %}
-            {% if site.github_url != '' %}
-              <a href="{{ site.github_url }}"><i class="fa fa-github fa-lg"></i></a>
-            {% endif %}
-
           </div>
-
-          {% if site.email != '' %}
-          <br><br>
-          
-          <h4 class="text-center">{{site.email}}</h4>
-          {% endif %}
 
           <div class="col-xs-12 col-md-6 pull-right">
             {% include about.html %}
