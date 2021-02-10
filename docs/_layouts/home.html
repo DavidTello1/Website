@@ -90,18 +90,18 @@
 
         <div class="break"></div>
 
-        <div id="libraries">
-        {% if site.data.libraries.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.libraries.section_title }}</h2>
+        <div id="projects">
+        {% if site.data.projects.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.projects.section_title }}</h2>
         {% endif %}
-        {% if site.data.libraries.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.libraries.section_subtitle }}</p>
+        {% if site.data.projects.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.projects.section_subtitle }}</p>
         {% endif %}
 
         <div class="break"></div>
 
         {% for post in paginator.posts %}
-        {% if post.type == "library" %}
+        {% if post.type == "project" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
           {% include content-left.html %}
