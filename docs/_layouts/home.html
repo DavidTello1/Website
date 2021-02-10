@@ -2,8 +2,6 @@
 
     {% include home-hero.html %}
 
-<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
-  
 <main id="portfolio">
   <div class="container">
     <div class="row">
