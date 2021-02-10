@@ -12,10 +12,10 @@
           <h3 class="text-center">{{site.description}}</h3>
           {% endif %}
 
-         <br><br>
-          <div class="col-xs-12 col-md-6 pull-left">
+          <div class="col-md-12 col-md-6 pull-left">
             <img class="img-responsive img-circle my-profile-pic" src="{{ site.url }}/Website/img/Picture.png">
           
+            <br><br>
             <div class="hero-buttons">
               {% if site.linkedin_url != '' %}
                 <a href="{{ site.linkedin_url }}"><i class="fa fa-linkedin fa-lg"></i></a>
@@ -26,13 +26,12 @@
             </div>
 
             {% if site.email != '' %}
-            <br><br>
-            
+            <br>
             <h4 class="text-center">{{site.email}}</h4>
             {% endif %}
           </div>
 
-          <div class="col-xs-12 col-md-6 pull-right">
+          <div class="col-md-12 col-md-6 pull-right">
             {% include about.html %}
           </div>
           
