@@ -23,6 +23,8 @@ linkedin_url: 'https://www.linkedin.com/in/david-tello-65b076155/'
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-paginate
 
 ### Phantom settings
 paginate: 1000
