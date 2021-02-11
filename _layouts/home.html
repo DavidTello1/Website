@@ -21,11 +21,11 @@
           {% if post.type == "skill" %}
             <div class="wow fadeIn">
             {% if post.position == "left" %}
-                {% include content-left.html %}
+            {% include content-left.html %}
             {% endif %}
       
             {% if post.position == "right" %}
-                {% include content-right.html %}
+            {% include content-right.html %}
             {% endif %}
             </div>
           {% endif %}
@@ -48,11 +48,11 @@
         {% if post.type == "project" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
-             {% include content-left.html %}
+          {% include content-left.html %}
           {% endif %}
 
           {% if post.position == "right" %}
-            {% include content-right.html %}
+          {% include content-right.html %}
           {% endif %}
           </div>
         {% endif %}
@@ -75,18 +75,16 @@
         {% if post.type == "gamejam" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
-            {% include content-left.html %}
+          {% include content-left.html %}
           {% endif %}
 
           {% if post.position == "right" %}
-            {% include content-right.html %}
+          {% include content-right.html %}
           {% endif %}
           </div>
         {% endif %}
         {% endfor %}
         </div>
-
-        {% include pagination.html %}
 
       </div>
     </div>
