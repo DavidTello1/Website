@@ -112,12 +112,12 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 9em 0;
+  margin: 7em 0 0 0;
   @include bp-xsmall {
-    margin: 5em 0 5em 0;
+    margin: 5em 0 0 0;
   }
   @include bp-small {
-    margin: 5em 0 5em 0;
+    margin: 5em 0 0 0;
   }
 }
 
@@ -249,7 +249,7 @@ button.btn, input.btn {
 }
 
 .content-wrap {
-  margin-bottom: 3em;
+  margin-bottom: 8em;
   @include bp-xsmall {
     margin-bottom: 2em;
   }
