@@ -40,4 +40,6 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/Website/#top', text: 'ABOUT' }
-  - { url: '/Website/#programming-languages', text: 'PROGRAMMING LANGUAGES' }
+  - { url: '/Website/#skills', text: 'SKILLS' }
+  - { url: '/Website/#projects', text: 'PROJECTS' }
+  - { url: '/Website/#gamejams', text: 'GAMEJAMS' }
