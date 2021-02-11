@@ -7,18 +7,18 @@
     <div class="row">
       <div class="col-md-12">
 
-        <div id="programming-languages">
-          {% if site.data.programming-languages.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.programming-languages.section_title }}</h2>
+        <div id="skills">
+          {% if site.data.skills.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.skills.section_title }}</h2>
           {% endif %}
-          {% if site.data.programming-languages.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.programming-languages.section_subtitle }}</p>
+          {% if site.data.skills.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.skills.section_subtitle }}</p>
           {% endif %}
       
           <div class="break"></div>
       
           {% for post in paginator.posts %}
-          {% if post.type == "programming-language" %}
+          {% if post.type == "skill" %}
             <div class="wow fadeIn">
             {% if post.position == "left" %}
             {% include content-left.html %}
