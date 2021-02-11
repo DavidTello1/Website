@@ -15,8 +15,6 @@
           <p class="section-subtitle text-center">{{ site.data.skills.section_subtitle }}</p>
           {% endif %}
       
-          <br><br>
-      
           {% for post in paginator.posts %}
           {% if post.type == "skill" %}
             <div class="wow fadeIn">
@@ -32,8 +30,6 @@
           {% endfor %}
         </div>
 
-         <br><br> <br>
-
         <div id="projects">
         {% if site.data.projects.section_title != empty %}
           <h2 class="section-title text-center">{{ site.data.projects.section_title }}</h2>
@@ -41,8 +37,6 @@
         {% if site.data.projects.section_subtitle != empty %}
           <p class="section-subtitle text-center">{{ site.data.projects.section_subtitle }}</p>
         {% endif %}
-
-        <br><br>
 
         {% for post in paginator.posts %}
         {% if post.type == "project" %}
@@ -58,8 +52,6 @@
         {% endif %}
         {% endfor %}
         </div>
-        
-        <br><br> <br>
 
         <div id="gamejams">
         {% if site.data.gamejams.section_title != empty %}
@@ -68,8 +60,6 @@
         {% if site.data.gamejams.section_subtitle != empty %}
           <p class="section-subtitle text-center">{{ site.data.gamejams.section_subtitle }}</p>
         {% endif %}
-
-         <br><br>
 
         {% for post in paginator.posts %}
         {% if post.type == "gamejam" %}
