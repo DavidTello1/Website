@@ -7,18 +7,18 @@
     <div class="row">
       <div class="col-md-12">
 
-        <div id="skills">
-          {% if site.data.skills.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.skills.section_title }}</h2>
+        <div id="programming-languages">
+          {% if site.programming-languages.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.programming-languages.section_title }}</h2>
           {% endif %}
-          {% if site.data.skills.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.skills.section_subtitle }}</p>
+          {% if site.data.programming-languages.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.programming-languages.section_subtitle }}</p>
           {% endif %}
-        
+      
           <div class="break"></div>
       
           {% for post in paginator.posts %}
-          {% if post.type == "professional-project" %}
+          {% if post.type == "programming-language" %}
             <div class="wow fadeIn">
             {% if post.position == "left" %}
             {% include content-left.html %}
@@ -32,18 +32,20 @@
           {% endfor %}
         </div>
 
-        <div id="projects">
-        {% if site.data.projects.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.projects.section_title }}</h2>
+        <div class="break"></div>
+
+        <div id="libraries">
+        {% if site.data.libraries.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.libraries.section_title }}</h2>
         {% endif %}
-        {% if site.data.projects.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.projects.section_subtitle }}</p>
+        {% if site.data.libraries.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.libraries.section_subtitle }}</p>
         {% endif %}
 
         <div class="break"></div>
 
         {% for post in paginator.posts %}
-        {% if post.type == "project" %}
+        {% if post.type == "library" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
           {% include content-left.html %}
@@ -59,18 +61,45 @@
 
         <div class="break"></div>
 
-        <div id="gamejams">
-        {% if site.data.gamejams.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.gamejams.section_title }}</h2>
+        <div id="software">
+        {% if site.data.software.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.software.section_title }}</h2>
         {% endif %}
-        {% if site.data.gamejams.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.gamejams.section_subtitle }}</p>
+        {% if site.data.software.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.software.section_subtitle }}</p>
         {% endif %}
 
         <div class="break"></div>
 
         {% for post in paginator.posts %}
-        {% if post.type == "gamejam" %}
+        {% if post.type == "software_type" %}
+          <div class="wow fadeIn">
+          {% if post.position == "left" %}
+          {% include content-left.html %}
+          {% endif %}
+
+          {% if post.position == "right" %}
+          {% include content-right.html %}
+          {% endif %}
+          </div>
+        {% endif %}
+        {% endfor %}
+        </div>
+
+        <div class="break"></div>
+
+        <div id="projects">
+        {% if site.data.projects.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.projects.section_title }}</h2>
+        {% endif %}
+        {% if site.data.projects.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.projects.section_subtitle }}</p>
+        {% endif %}
+
+        <div class="break"></div>
+
+        {% for post in paginator.posts %}
+        {% if post.type == "project" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
           {% include content-left.html %}
