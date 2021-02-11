@@ -15,7 +15,22 @@
           <p class="section-subtitle text-center">{{ site.data.skills.section_subtitle }}</p>
           {% endif %}
         
-        <div class="break"></div>
+          <div class="break"></div>
+      
+          {% for post in paginator.posts %}
+          {% if post.type == "professional-project" %}
+            <div class="wow fadeIn">
+            {% if post.position == "left" %}
+            {% include content-left.html %}
+            {% endif %}
+      
+            {% if post.position == "right" %}
+            {% include content-right.html %}
+            {% endif %}
+            </div>
+          {% endif %}
+          {% endfor %}
+        </div>
 
         <div id="projects">
         {% if site.data.projects.section_title != empty %}
