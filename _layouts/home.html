@@ -88,18 +88,18 @@
           
         <div class="break"></div>
 
-        <div id="software">
-        {% if site.data.software.section_title != empty %}
-          <h2 class="section-title text-center">{{ site.data.software.section_title }}</h2>
+        <div id="gamejams">
+        {% if site.data.gamejams.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.gamejams.section_title }}</h2>
         {% endif %}
-        {% if site.data.software.section_subtitle != empty %}
-          <p class="section-subtitle text-center">{{ site.data.software.section_subtitle }}</p>
+        {% if site.data.gamejams.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.gamejams.section_subtitle }}</p>
         {% endif %}
 
         <div class="break"></div>
 
         {% for post in paginator.posts %}
-        {% if post.type == "software_type" %}
+        {% if post.type == "gamejam" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
           {% include content-left.html %}
