@@ -456,4 +456,14 @@ pre {
 .columns-3 {
   float: left;
   width: 33%; 
+	
+  @include bp-medium {
+    width: 100%;
+  }
+  @include bp-small {
+    width: 100%;
+  }
+  @include bp-xsmall {
+    width: 100%;
+  }
 }
