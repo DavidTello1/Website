@@ -11,16 +11,16 @@
           {% if site.data.skills.section_title != empty %}
           <h2 class="section-title text-center">{{ site.data.skills.section_title }}</h2>
           {% endif %}
+          
+          <div class="columns-3">
+          {% if site.data.skills.section_libraries != empty %}
+          <h4 class="text-center">{{ site.data.skills.section_libraries }}</h4>
+          {% endif %}
+          </div>
             
           <div class="columns-3 pull-left">
           {% if site.data.skills.section_programming_languages != empty %}
           <h4 class="text-center">{{ site.data.skills.section_programming_languages }}</h4>
-          {% endif %}
-          </div>
-            
-          <div class="columns-3 pull-center">
-          {% if site.data.skills.section_libraries != empty %}
-          <h4 class="text-center">{{ site.data.skills.section_libraries }}</h4>
           {% endif %}
           </div>
             
