@@ -14,20 +14,14 @@
           {% if site.data.skills.section_subtitle != empty %}
           <p class="section-subtitle text-center">{{ site.data.skills.section_subtitle }}</p>
           {% endif %}
-      
           {% if site.data.skills.section_programming_languages != empty %}
           <p class="section-subtitle text-center">{{ site.data.skills.section_programming_languages }}</p>
-            {% include programming_languages.html %}
           {% endif %}
-          
           {% if site.data.skills.section_libraries != empty %}
           <p class="section-subtitle text-center">{{ site.data.skills.section_libraries }}</p>
-            {% include libraries.html %}
           {% endif %}
-          
-          {% if site.data.skills.section software != empty %}
-          <p class="section-subtitle text-center">{{ site.data.skills.section software }}</p>
-            {% include software.html %}
+          {% if site.data.skills.section_software != empty %}
+          <p class="section-subtitle text-center">{{ site.data.skills.section_software }}</p>
           {% endif %}
         </div>
 
