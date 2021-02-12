@@ -16,14 +16,21 @@
           {% endif %}
           {% if site.data.skills.section_programming_languages != empty %}
           <p class="section-subtitle text-center">{{ site.data.skills.section_programming_languages }}</p>
+            {% include programming_languages.html %}
           {% endif %}
+            <br><br>
           {% if site.data.skills.section_libraries != empty %}
           <p class="section-subtitle text-center">{{ site.data.skills.section_libraries }}</p>
+            {% include libraries.html %}
           {% endif %}
+            <br><br>
           {% if site.data.skills.section_software != empty %}
           <p class="section-subtitle text-center">{{ site.data.skills.section_software }}</p>
+            {% include software.html %}
           {% endif %}
         </div>
+          
+          <br><br><br><br>
 
         <div id="projects">
         {% if site.data.projects.section_title != empty %}
