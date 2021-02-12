@@ -1,11 +1,11 @@
 ---
 layout: inner
-date: present
+date: 12/02/2021
 type: project
 position: left
 
 title: '2D Game Engine'
-year: '2017'
+year: '2021'
 description: '2D Game Engine I have started doing in my free time, it is still work in progress but my main goal is to have a fast and efficient game engine and a good UI/UX.'
 
 tags: C++ OpenGL ImGui
