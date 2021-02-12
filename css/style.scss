@@ -458,12 +458,15 @@ pre {
   width: 33%; 
 	
   @include bp-medium {
+    float: none;
     width: 100%;
   }
   @include bp-small {
+    float: none;
     width: 100%;
   }
   @include bp-xsmall {
+    float: none;
     width: 100%;
   }
 }
