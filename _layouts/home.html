@@ -11,7 +11,15 @@
           {% if site.data.skills.section_title != empty %}
           <h2 class="section-title text-center">{{ site.data.skills.section_title }}</h2>
           {% endif %}
-            {% include skills.html %}
+          {% if site.data.skills.section_programming_languages != empty %}
+          <h4 class="section-subtitle text-left">{{ site.data.skills.section_programming_languages }}</h4>
+          {% endif %}
+          {% if site.data.skills.section_libraries != empty %}
+          <h4 class="section-subtitle text-center">{{ site.data.skills.section_libraries }}</h4>
+          {% endif %}
+          {% if site.data.skills.section_software != empty %}
+          <h4 class="section-subtitle text-right">{{ site.data.skills.section_software }}</h4>
+          {% endif %}
         </div>
           
           <br><br><br><br>
