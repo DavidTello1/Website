@@ -15,19 +15,21 @@
           <p class="section-subtitle text-center">{{ site.data.skills.section_subtitle }}</p>
           {% endif %}
       
-          {% for post in paginator.posts %}
-          {% if post.type == "skill" %}
-            <div class="wow fadeIn">
-            {% if post.position == "left" %}
-            {% include content-left.html %}
-            {% endif %}
-      
-            {% if post.position == "right" %}
-            {% include content-right.html %}
-            {% endif %}
-            </div>
+          {% if site.data.skills.section_programming_languages != empty %}
+          <h4 class="section-title text-center">{{ site.data.skills.section_programming_languages }}</h4>
           {% endif %}
-          {% endfor %}
+          
+
+          {% if site.data.skills.section_libraries != empty %}
+          <h4 class="section-title text-center">{{ site.data.skills.section_libraries }}</h4>
+          {% endif %}
+            
+            
+          {% if site.data.skills.section software != empty %}
+          <h4 class="section-title text-center">{{ site.data.skills.section software }}</h4>
+          {% endif %}
+            
+            
         </div>
 
         <div id="projects">
