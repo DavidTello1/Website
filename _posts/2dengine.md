@@ -1,0 +1,16 @@
+---
+layout: inner
+date: present
+type: project
+position: left
+
+title: '2D Game Engine'
+year: '2017'
+description: '2D Game Engine I have started doing in my free time, it is still work in progress but my main goal is to have a fast and efficient game engine and a good UI/UX.'
+
+tags: C++ OpenGL ImGui
+featured_image: '/img/project/2D_Engine.png'
+
+website_url: ''
+github_url: 'https://github.com/DavidTello1/Motor2D'
+---
