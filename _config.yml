@@ -39,7 +39,7 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/Website/#top', text: 'ABOUT' }
-  - { url: '/Website/#skills', text: 'SKILLS' }
-  - { url: '/Website/#projects', text: 'PROJECTS' }
-  - { url: '/Website/#gamejams', text: 'GAMEJAMS' }
+  - { url: '/Website/#top', text: 'About' }
+  - { url: '/Website/#skills', text: 'Skills' }
+  - { url: '/Website/#projects', text: 'Projects' }
+  - { url: '/Website/#gamejams', text: 'Game Jams' }
