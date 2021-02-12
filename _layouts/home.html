@@ -16,20 +16,19 @@
           {% endif %}
       
           {% if site.data.skills.section_programming_languages != empty %}
-          <h4 class="text-center">{{ site.data.skills.section_programming_languages }}</h4>
+          <h4 class="section-subtitle text-center">{{ site.data.skills.section_programming_languages }}</h4>
+            {% include programming_languages.html %}
           {% endif %}
           
-
           {% if site.data.skills.section_libraries != empty %}
-          <h4 class="text-center">{{ site.data.skills.section_libraries }}</h4>
+          <h4 class="section-subtitle text-center">{{ site.data.skills.section_libraries }}</h4>
+            {% include header.html %}
           {% endif %}
-            
-            
+          
           {% if site.data.skills.section software != empty %}
-          <h4 class="text-center">{{ site.data.skills.section software }}</h4>
+          <h4 class="section-subtitle text-center">{{ site.data.skills.section software }}</h4>
+            {% include software.html %}
           {% endif %}
-            
-            
         </div>
 
         <div id="projects">
