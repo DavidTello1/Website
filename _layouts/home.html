@@ -12,28 +12,29 @@
           <h2 class="section-title text-center">{{ site.data.skills.section_title }}</h2>
           {% endif %}
           
-          <div class="columns-3 pull-left">
-          {% if site.data.skills.section_programming_languages != empty %}
-          <h3 class="text-center">{{ site.data.skills.section_programming_languages }}</h3>
-          {% endif %}
+          <div class="col-md-12">
+            <div class="columns-3 pull-left">
+            {% if site.data.skills.section_programming_languages != empty %}
+            <h3 class="text-center">{{ site.data.skills.section_programming_languages }}</h3>
+            {% endif %}
+            </div>
+              
+            <div class="columns-3">
+            {% if site.data.skills.section_libraries != empty %}
+            <h3>{{ site.data.skills.section_libraries }}</h3>
+              <p class="text-center"> Dear ImGui </p>
+              <p class="text-center"> SDL </p>
+              <p class="text-center"> OpenGL </p>
+            {% endif %}
+            </div>
+              
+            <div class="columns-3 pull-right">
+            {% if site.data.skills.section_software != empty %}
+            <h3 class="text-center">{{ site.data.skills.section_software }}</h3>
+            {% endif %}
+            </div>
           </div>
-            
-          <div class="columns-3">
-          {% if site.data.skills.section_libraries != empty %}
-          <h3>{{ site.data.skills.section_libraries }}</h3>
-            <p class="text-center"> Dear ImGui </p>
-            <p class="text-center"> SDL </p>
-            <p class="text-center"> OpenGL </p>
-          {% endif %}
-          </div>
-            
-          <div class="columns-3 pull-right">
-          {% if site.data.skills.section_software != empty %}
-          <h3 class="text-center">{{ site.data.skills.section_software }}</h3>
-          {% endif %}
-          </div>
-        </div>
-          
+        </div> 
           <br><br><br><br>
 
         <div id="projects">
