@@ -15,16 +15,16 @@
           
             <div class="columns-3 pull-left">
             {% if site.data.skills.section_programming_languages != empty %}
-            <h3>{{ site.data.skills.section_programming_languages }}</h3>
+            <p>{{ site.data.skills.section_programming_languages }}</h3>
             {% endif %}
             </div>
               
             <div class="columns-3">
             {% if site.data.skills.section_libraries != empty %}
             <h3>{{ site.data.skills.section_libraries }}</h3>
-              <h4> Dear ImGui </h4>
-              <h4> SDL </h4>
-              <h4> OpenGL </h4>
+              <p> Dear ImGui </p>
+              <p> SDL </p>
+              <p> OpenGL </p>
             {% endif %}
             </div>
               
@@ -35,7 +35,7 @@
             </div>
           </div>
         </div> 
-          <br><br><br><br>
+          <br><br><br>
 
         <div id="projects">
         {% if site.data.projects.section_title != empty %}
