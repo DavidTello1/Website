@@ -6,6 +6,7 @@ position: right
 
 title: 'The Witcher: Ties of Destiny'
 year: '2020'
+time: ''
 description: '3D Hack n Slash game, made from scratch with a game engine that was developed at the same time as the game, in a group of 29.'
 
 featured_image: '/img/project/Witcher.png'
