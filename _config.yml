@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: 'David Tello'
 description: 'Hi! I am a Programmer and Game Designer.'
-email: 'davidtellop@gmail.com'
-baseurl: '/Website' # the subpath of your site, e.g. /blog
+email: 'davidtellop@gmail.com/Website'
+baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://davidtello1.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 github_url: 'https://github.com/DavidTello1'
 linkedin_url: 'https://www.linkedin.com/in/david-tello-65b076155/'
@@ -40,7 +40,7 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/Website/#top', text: 'About' }
-  - { url: '/Website/#skills', text: 'Skills' }
-  - { url: '/Website/#projects', text: 'Projects' }
-  - { url: '/Website/#gamejams', text: 'Game Jams' }
+  - { url: '/#top', text: 'About' }
+  - { url: '/#skills', text: 'Skills' }
+  - { url: '/#projects', text: 'Projects' }
+  - { url: '/#gamejams', text: 'Game Jams' }
