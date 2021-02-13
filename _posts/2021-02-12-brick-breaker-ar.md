@@ -9,7 +9,7 @@ year: '2020'
 time: ''
 description: 'Augmented Reality version of Brick Breaker, made with Unity and Vuforia Engine'
 
-featured_image: '/img/project/Brick_Breaker.png'
+featured_image: '/img/project/brick-breaker.gif'
 
 website_url: ''
 github_url: ''

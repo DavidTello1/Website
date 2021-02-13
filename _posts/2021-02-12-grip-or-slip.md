@@ -7,9 +7,9 @@ position: right
 title: 'Grip or Slip'
 year: '2019'
 time: ''
-description: '2D platformer game, made with C++ and SDL in a group of 2.'
+description: '2D platformer where you have to swap between the two maps to complete the game, made with C++ and SDL in a group of 2.'
 
-featured_image: '/img/project/Grip_or_Slip.png'
+featured_image: '/img/project/grip-or-slip.gif'
 
 website_url: 'https://davidtello1.github.io/Development/'
 github_url: 'https://github.com/DavidTello1/Development'

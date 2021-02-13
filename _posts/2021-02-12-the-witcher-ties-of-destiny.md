@@ -9,7 +9,7 @@ year: '2020'
 time: ''
 description: '3D Hack n Slash game, made from scratch with a game engine that was developed at the same time as the game, in a group of 29.'
 
-featured_image: '/img/project/Witcher.png'
+featured_image: '/img/project/the-witcher.gif'
 
 website_url: 'https://tiesofdestiny.com/'
 github_url: 'https://github.com/Broken-Gem-Studio/The-Witcher-Ties-of-Destiny'
