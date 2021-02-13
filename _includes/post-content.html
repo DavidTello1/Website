@@ -8,7 +8,11 @@
   {% if post.year != empty %}
   <h4 class="my-grey-color">{{ post.year }}</h4>
   {% endif %}
-
+  
+  {% if post.time != empty %}
+  <h4 class="my-grey-color display:inline-block">{{ post.time }}</h4>
+  {% endif %}
+  
   <p class="excerpt">
 
     {% if post.description != empty %}
