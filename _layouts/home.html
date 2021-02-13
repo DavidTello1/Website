@@ -12,14 +12,14 @@
             {% if site.data.skills.section_title != empty %}
             <h2 class="section-title text-center">{{ site.data.skills.section_title }}</h2>
             {% endif %}
-          
+              
             <div class="columns-3 pull-left">
             {% if site.data.skills.section_programming_languages != empty %}
             <h3>{{ site.data.skills.section_programming_languages }}</h3>
                 {% include programming-languages.html %}
             {% endif %}
             </div>
-              
+              <br>
             <div class="columns-3">
             {% if site.data.skills.section_libraries != empty %}
             <h3>{{ site.data.skills.section_libraries }}</h3
@@ -27,7 +27,7 @@
               {% include libraries.html %}
             {% endif %}
             </div>
-              
+              <br>
             <div class="columns-3 pull-right">
             {% if site.data.skills.section_software != empty %}
             <h3>{{ site.data.skills.section_software }}</h3>
@@ -60,7 +60,8 @@
         {% endif %}
         {% endfor %}
         </div>
-
+          <br><br><br>
+        
         <div id="gamejams">
         {% if site.data.gamejams.section_title != empty %}
           <h2 class="section-title text-center">{{ site.data.gamejams.section_title }}</h2>
@@ -83,7 +84,8 @@
         {% endif %}
         {% endfor %}
         </div>
-        
+          <br><br><br>
+          
       </div>
     </div>
   </div>
